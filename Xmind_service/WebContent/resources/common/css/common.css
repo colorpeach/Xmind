@@ -89,3 +89,14 @@ input.ng-valid.ng-dirty {
 	opacity: 0.8;
 	filter: alpha(opacity=80);
 }
+
+.gradient-line{
+	background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #fff), color-stop(10%, #ddd), color-stop(90%, #fff), color-stop(100%, #ddd));
+	background-image: -webkit-linear-gradient(left, #FFF,#DDD 10%,#DDD 90%,#FFF)
+	background-image: -moz-linear-gradient(left, #FFF,#DDD 10%,#DDD 90%,#FFF);
+	background-image: -o-linear-gradient(left, #FFF,#DDD 10%,#DDD 90%,#FFF);
+	background-image: linear-gradient(left, #FFF,#DDD 10%,#DDD 90%,#FFF);
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	background-size: 100% 1px;
+}
